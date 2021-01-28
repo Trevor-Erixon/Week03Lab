@@ -17,7 +17,6 @@ public class AgeCalculatorServlet extends HttpServlet {
             throws ServletException, IOException 
     {
         getServletContext().getRequestDispatcher("/WEB-INF/ageCalculator.jsp").forward(request, response);
-        
     }
 
     @Override

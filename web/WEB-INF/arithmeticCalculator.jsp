@@ -14,14 +14,15 @@
     <body>
         <h1>Arithmetic Calculator</h1>
         <form>
-            First: <input type="text" name="first"><br>
-            Second: <input type="text" name="second"><br>
-            <input type="button" value="+">
-            <input type="button" value="-">
-            <input type="button" value="*">
-            <input type="button" value="%">
-            <br><br>           
+            First: <input type="text" name="firstInt"><br>
+            Second: <input type="text" name="secondInt"><br>
+            <input type="button" value="+" name="inputType">
+            <input type="button" value="-" name="inputType">
+            <input type="button" value="*" name="inputType">
+            <input type="button" value="%" name="inputType">
+            <br>
+            <p>Result: ${calc}</p>
+            <p><a href="age">Age Calculator</a></p>
         </form>
-        <p>Result: ${calc}</p>
     </body>
 </html>
